@@ -13,7 +13,7 @@ function ProjectList({ projects }) {
             <div key={project.id} className="project-card">
               <div className="project-header">
                 <h3>{project.title}</h3>
-                <span className="project-id">#{project.id}</span>
+                <span className="project-id">{project.id}</span>
               </div>
               <p className="project-description">{project.description}</p>
               <div className="tech-stack">
